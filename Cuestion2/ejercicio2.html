@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <script src="ejercicio2.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body onload="rotarImagen()">
+
+    <!--  Diseña una aplicación web con un formulario, imágenes y tablas -->
+
+    <div id="container">
+
+        <!-- <img src="../img/logoFormulario.png" alt="logoFormulario" id="logoFormulario"> -->
+
+        <form action="" id="formulario">
+
+            <label for="nombreAlumno">Escribe tu nombre:<input type="text" id="nombreAlumno"
+                    name="nombreAlumno" ></label>
+            <br><br>
+            <label for="apellidosAlumno">Escribe tu apellido:<input type="text" id="apellidosAlumno"
+                    name="apellidosAlumno" ></label>
+            <br><br>
+            <label for="fechaNacimiento">Introduzca la fecha<input type="date" id="fechaNacimiento"
+                    name="fechaNacimiento" ></label>
+            <br><br>
+            <label for="telefonoAlumno">Escribe tu teléfono:<input type="tel" id="telefonoAlumno"
+                    name="telefonoAlumno" ></label>
+            <br><br>
+            <input type="submit" value="Enviar" id="botonEnviar" onclick="crearFila(event)">
+
+        </form>
+
+
+        <div id="contenidoTabla">
+            <table id="tabla">
+
+                <tr>
+                    <th>Nombre:</th>
+                    <th>Apellido:</th>
+                    <th>Fecha Nacimiento:</th>
+                    <th>Teléfono:</th>
+                </tr>
+
+                <!--<tr>
+
+                    <td id="filaNombre"></td>
+                    <td id="filaApellido"></td>
+                    <td id="filaFechaNacimiento"></td>
+                    <td id="filaTelefono"></td>
+
+                </tr>-->
+
+
+            </table>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

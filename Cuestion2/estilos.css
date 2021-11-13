@@ -1,0 +1,53 @@
+#container{
+    border: 1px solid red;
+    margin: auto;
+    height: auto;
+    width: 700px;
+    margin-top: 5%;
+}
+
+#logoFormulario{
+    height: 120px;
+    width: auto;
+    margin-left:40%;
+}
+
+body{
+    background-color: thistle;    
+}
+
+#formulario{
+    margin-top: 20px;
+}
+
+label{
+    margin-left: 25%;
+}
+
+input{
+    margin-left: 10%;
+}
+
+#botonEnviar{
+    margin-left: 25%;
+    border-radius: 30%;
+    background-color: orangered;
+}
+
+
+#tabla{
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+tr{
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+}
